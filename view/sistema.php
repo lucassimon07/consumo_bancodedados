@@ -11,20 +11,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="../assets/css/sistema.css" rel="stylesheet">
 
+    <style>
+        table th {background-color: #898989};
+
+        #totais {
+          background-color: #EEEEEE;
+        };
+      </style>
+
   </head>
   <body>
         
   <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
   <!-- TÍTULO PRINCIPAL -->  
-  <h2>Listagem de Customers</h2>
+  <center><h2>Listagem de Customers</h2></center>
     
     <!-- ÁREA DOS TOTAIS -->
-    <div id="totais">
+    <div id="totais" style=" background-color: #EEEEEE; border-radius: 7px; padding: 20px;">
     </div>
     
     <!-- ÁREA DA TABELA -->
     <div class="table-responsive">
-      <table class="table table-striped table-sm">
+      <table class="table table-striped table-sm" >
         <thead>
           <tr>
             <th>#</th>
